@@ -1,0 +1,32 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.formi
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+
+}
+.content
+{
+    border: 1px solid grey;
+    padding:50px;
+    backdrop-filter: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    background: blur(10px);
+    border-radius: 20px;
+
+
+}

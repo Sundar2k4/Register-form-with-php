@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formi" id="form">
+        <div class="content">
+            <form action="connect.php" method="POST">
+                <h1 style="padding-bottom: 50px;">REGISTRATION FORM</h1>
+                <label for="fname"><b>First Name:</b></label>
+                <input type="text" id="fname" name="Firstname"><br><br>
+                <label for="lname"><b>Last Name:</b></label>
+                <input type="text" id="lname" name="Lastname"><br><br>
+                <p><b>Gender:</b></p><br>
+                <label for="male" style="margin-left: 20px;" name="Gender"><b>Male:</b></label>
+                <input type="radio" id="male" name="Gender" value="M">
+                <label for="female" name="Gender"><b>Female:</b></label>
+                <input type="radio" id="female" name="Gender" value="F">
+                <label for="others" name="Gender"><b>Others:</b></label>
+                <input type="radio" id="others" name="Gender" value="O"><br><br><br>
+                <label for="email"><b>Email:</b></label>
+                <input type="text" id="email" name="Email"><br><br>
+                <label for="pass"><b>Password:</b></label>
+                <input type="password" id="pass" name="Password"><br><br>
+                <label for="phone"><b>Phone:</b></label>
+                <input type="text" id="phone" name="Phone"><br><br>
+                <button><b>Submit</b></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
